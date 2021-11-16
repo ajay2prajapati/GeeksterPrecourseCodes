@@ -1,16 +1,26 @@
 public class Main {
 	public static void main(String[] args) {
-		int a[]={1,2,5,6,3,2};  
-System.out.println("Odd Numbers:");  
-for(int i=0;i<a.length;i++){  
-if(a[i]%2!=0){  
-System.out.println(a[i]);  
-}  
-}  
-System.out.println("Even Numbers:");  
-for(int i=0;i<a.length;i++){  
-if(a[i]%2==0){  
-System.out.println(a[i]);  
+		int number=100;  
+System.out.print("List of odd numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{  
+//logic to check if the number is odd or not  
+//if i%2 is not equal to zero, the number is odd  
+if (i%2!=0)   
+{  
+System.out.print(i + " ");  
+} 
+	
+} 
+		int number=100;  
+System.out.print("List of even numbers from 1 to "+number+": ");  
+for (int i=1; i<=number; i++)   
+{  
+//logic to check if the number is even or not  
+//if i%2 is equal to zero, the number is even  
+if (i%2==0)   
+{  
+System.out.print(i + " ");  
 }  
 }  
 	}
